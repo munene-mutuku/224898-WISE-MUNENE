@@ -41,20 +41,31 @@ anything that starts with # is a preprocessor directive(a tool that prepares you
 //try-catch statement- a statement that allows the program to handle exceptions (try, catch, throw)
 //null statement- a statement that does nothing (a single semicolon ;)
 //int main-marks the entry point of the program
+
 //#ifndef- if not defined
 //#define- define a macro
 //#endif- end if
 // #ifdef- if defined
+
+
 // variable declaration - a statement that introduces a variable and its type to the program
 // variable definition - a statement that allocates memory for a variable and optionally initializes it
 // initialization- the process of assigning an initial value to a variable
 // accessing a variable- using the variable in an expression or statement
+
 // a variable- a named storage location in memory that holds a value(memory location)
+
+
 //data type- a classification of data that tells the compiler how to interpret the data (int, float, char, etc)
 // primitive data type- a basic data type that is not composed of other data types (int, float, char, etc)
 //derived data type- a data type that is composed of other data types (array, struct, class, etc)
 //user-defined data type- a data type that is defined by the user (enum, union, typedef, etc)
+//enumeration- a user-defined data type that consists of a set of named integral constants e.g enum Color { RED, GREEN, BLUE };
+//complex data type- a data type that can hold multiple values or a combination of different types (struct, class, union, etc)
 
+//type casting- the process of converting a value from one data type to another
+//implicit type casting- the automatic conversion of a value from one data type to another by the compiler
+//explicit type casting- the manual conversion of a value from one data type to another by the programmer using a cast operator
 
 #include <iostream> 
 using namespace std;
