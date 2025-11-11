@@ -3,18 +3,20 @@
 using namespace std;
 
 int main(){
+    cout<<"----------------------------------------------------------------------------------------------------------------"<<endl;
+
     string profile;
-    cout<<"User Profile Creation"<<endl;
+    cout<<"User Profile Creation"<<endl;                                                                                   "---\n";
 
     string FirstName;
     cout<<"Enter your first name: ";
     getline(cin, FirstName);
-    cout<<FirstName  <<endl;
+    cout<<"FirstName: "<< FirstName <<endl;
 
     string LastName;
     cout<<"Enter your last name: ";
     getline(cin, LastName);
-    cout<<LastName  <<endl;
+    cout<<"LastName: "<< LastName <<endl;
 
     string FullName= FirstName + " " + LastName;
     cout<<"Hello, " << FullName << "! Welcome!" <<endl;
@@ -22,13 +24,16 @@ int main(){
     string favouriteMeal;
     cout<<"Enter your favourite meal: ";
     getline(cin, favouriteMeal);
-    cout<<"My favourite meal is "<< favouriteMeal <<endl;
+    cout<<"My favourite meal is: "<< favouriteMeal <<endl;
 
     string ambition;
     cout<<"Enter your ambition in life: ";
     getline(cin, ambition);
     cout<<"My ambition is to "<< ambition <<endl;
 
-    
-    return 0;
+    cout<<"----------------------------------------------------------------------------------------------------------------"<<endl;
+return 0;
 }
+    
+
+    
