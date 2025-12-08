@@ -60,7 +60,8 @@ anything that starts with # is a preprocessor directive(a tool that prepares you
 // primitive data type- a basic data type that is not composed of other data types (int, float, char, etc)
 //derived data type- a data type that is composed of other data types (array, struct, class, etc)
 //user-defined data type- a data type that is defined by the user (enum, union, typedef, etc)
-//enumeration- a user-defined data type that consists of a set of named integral constants e.g enum Color { RED, GREEN, BLUE };
+//enumeration- a user-defined data type that consists of a set of named integral constants e.g enum Color { RED, GREEN, BLUE }
+//enum can store any data type values- int, char, etc
 //complex data type- a data type that can hold multiple values or a combination of different types (struct, class, union, etc)
 
 //type casting- the process of converting a value from one data type to another

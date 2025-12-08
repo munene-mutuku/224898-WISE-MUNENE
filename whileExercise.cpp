@@ -1,31 +1,32 @@
+//Depends with a condition
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main(){
-//     int num;
-//     cout<<"enter number"<<endl;
-//     cin >> num;
-//     while (num >=12 && num<=28){
-//         num+= 2;
+    int num;
+    cout<<"enter number"<<endl;
+    cin >> num;
+    while (num >=12 && num<=28){
+        num+= 2;
     
-//     cout << num <<", " <<endl;
-//     }
+    cout << num <<", " <<endl;
+    }
+
+
+
 // sum of whole numbers between 20 and 25
+    int sum = 0;
+    int num1 = 20;
 
-    
-    // int sum = 0;
-    // int num1 = 20;
+    while (num1 <= 25) {
+        sum += num1;
+        num1++;
+        cout << "Sum = " << sum << endl;
+    }
 
-    // while (num1 <= 25) {
-    //     sum += num1;
-    //     num1++;
-    //     cout << "Sum = " << sum << endl;
-    // }
 
     // counts the number of times a wrong password has been entered
-
-    
         string correctPassword;
         string password;
         int attempts =3;
@@ -41,17 +42,12 @@ int main(){
             }else{
                 cout<<"wrong password"<<endl;
                 attempts--;
-                 cout<<"password blocked"<< attempts << endl;
+                 cout<<"password blocked" << endl;
             }
             
         }
 
         return 0;
-    
-
-
-
-    
 
 }
 

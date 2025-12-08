@@ -67,6 +67,57 @@ using namespace std;
     //     return 0;
     //  }
 
+   //same program above using switchcase
+
+int main() {
+    int age4;
+    cout << "Enter age: ";
+    cin >> age4;
+
+    switch(age4) {
+        case 2:
+            cout << "Admit to playgroup" << endl;
+            break;
+        case 3:
+            if (age4 == 3) {      // you can have an if here
+                cout << "Admit to pre-school" << endl;
+            }
+            break;
+        case 4:
+            if (age4 >= 4 ) {
+                cout << "Admit to kindergarten" << endl;
+                break;
+            }
+            
+
+        case 5:
+        if(age4==5){
+            cout<<"admit to kindergarten"<<endl;
+            break;
+        }
+        case 6:
+        if(age4==6){
+            cout<<"admit to kindergarten"<<endl;
+            break;
+        }
+
+
+         case 7: case 8: case 9: case 10: case 11: case 12: case 13: case 14: case 15: case 16:
+            if(age4>7 && age4<16){
+            cout<<"admit to grade school"<<endl;
+            break;
+        }
+        default:
+            cout << "Reject" << endl;
+            break;
+    }
+
+    return 0;
+}
+
+
+
+
 
 
 // switch case
@@ -127,61 +178,61 @@ using namespace std;
 
 
 
-int main() {
-    int age;
-    int option ;
+// int main() {
+//     int age;
+//     int option ;
 
-    cout << "PRE-SCHOOL ADMISSIONS PROGRAM "<<endl;
+//     cout << "PRE-SCHOOL ADMISSIONS PROGRAM "<<endl;
 
-    cout << "Enter child's age: ";
-    cin >> age;
+//     cout << "Enter child's age: ";
+//     cin >> age;
 
-    if (age < 4 || age > 10) {
-        cout << "Invalid age! Child must be between 4 and 10 years." << endl;
-        return 0; 
-    }
+//     if (age < 4 || age > 10) {
+//         cout << "Invalid age! Child must be between 4 and 10 years." << endl;
+//         return 0; 
+//     }
 
-    cout << "\nSelect child's interest:" << endl;
-    cout << "1. Soccer"<<endl;
-    cout << "2. Art"<<endl;
-    cout << "3. Music"<<endl;
-    cout << "4. Athletics"<<endl;
-    cout << "5. Toys"<<endl;
-    cout << "6. Other"<<endl;
+//     cout << "\nSelect child's interest:" << endl;
+//     cout << "1. Soccer"<<endl;
+//     cout << "2. Art"<<endl;
+//     cout << "3. Music"<<endl;
+//     cout << "4. Athletics"<<endl;
+//     cout << "5. Toys"<<endl;
+//     cout << "6. Other"<<endl;
 
-    cout << "Enter option  ";
-    cin >> option;
+//     cout << "Enter option  ";
+//     cin >> option;
 
-    switch (option) {
-        case 1:
-            cout << "Assign to: **Soccer Play Group" << endl;
-            break;
+//     switch (option) {
+//         case 1:
+//             cout << "Assign to: **Soccer Play Group" << endl;
+//             break;
 
-        case 2:
-            cout << "Assign to: **Art Play Group" << endl;
-            break;
+//         case 2:
+//             cout << "Assign to: **Art Play Group" << endl;
+//             break;
 
-        case 3:
-            cout << "Assign to: **Music Play Group" << endl;
-            break;
+//         case 3:
+//             cout << "Assign to: **Music Play Group" << endl;
+//             break;
 
-        case 4:
-            cout << "Assign to: **Athletics Play Group" << endl;
-            break;
+//         case 4:
+//             cout << "Assign to: **Athletics Play Group" << endl;
+//             break;
 
-        case 5:
-            cout << "Assign to: **Toys Play Group" << endl;
-            break;
+//         case 5:
+//             cout << "Assign to: **Toys Play Group" << endl;
+//             break;
 
-        case 6:
-            cout << "Assign to: **Other Groups" << endl;
-            break;
+//         case 6:
+//             cout << "Assign to: **Other Groups" << endl;
+//             break;
 
-        default:
-            cout << "Invalid interest option!" << endl;
-    }
+//         default:
+//             cout << "Invalid interest option!" << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
 
